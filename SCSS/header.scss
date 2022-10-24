@@ -1,0 +1,28 @@
+header {
+    background-color: rgb(159, 240, 250);
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedor{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 200px;
+    text-align: center;
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    }
+
+.item-01:hover{
+    transform: scale(1.2);
+}
+
+.item-02:hover{
+    transform: scale(1.2);
+}
+
+.item-03:hover{
+    transform: scale(1.2);
+}
