@@ -1,5 +1,6 @@
 //Import de css de bootstrap
 @import "bootstrap/bootstrap.scss";
+//Import de styles
 @import "header";
 @import "main";
 @import "footer";
@@ -7,19 +8,21 @@
 /*Estilos principales CSS*/
 .navbar .collapse {
     justify-content:center;
-    align-content:flex-start;
-    background-color:rgb(133, 152, 201);
+    align-content:space-between;
+    background-color:#192a54eb;
+    font-style: color white;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 25px 25px 25px 15px;
-     
-    margin-top: 5px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-
 }
 
 @media screen and (min-width: 768px) {
     .navbar .collapse {
         justify-content: flex-end;
     }
+}
+
+.nav-logo {
+    weight: 90px;
+    height: 90px;
 }
