@@ -8452,7 +8452,8 @@ footer {
   font-size: large;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 25px 25px 25px 25px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  cursor: pointer; }
   .navbar .collapse .nav-item:hover {
     transform: scale(1.03); }
 
