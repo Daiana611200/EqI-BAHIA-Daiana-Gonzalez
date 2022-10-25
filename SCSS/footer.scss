@@ -3,7 +3,7 @@
 /*Estilo footer*/
 footer {
     background-color: #192a54eb;
-    padding: 48px 2px;
+    padding: 30px 2px 10px 30px;
 
     display: grid;
     grid-template-columns: auto auto;
@@ -15,25 +15,35 @@ footer {
 
     div:nth-child(1) {
         text-align:left;
+        text-decoration: none;
+        color: white;
         }
     
     div:nth-child(2) {
         text-align: center;
+        h5 {
+            color: white;
         }
+         }
         
     div:nth-child(3) {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: left;
         font-size: small;
+        color: white;
         }
     
     ul li {
         display:inline-block;
-        }
-    
-    ul li a svg {
-        margin: 100 5px;
+        justify-content:right;
+            a svg {
+                    margin: 100 5px;
+                    color: white;
+                    &:hover{
+                    transform: scale(2.03);
+                            }
+                    }
         }
     }
 
