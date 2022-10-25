@@ -8431,7 +8431,7 @@ footer {
   grid-template-rows: auto auto;
   grid-column-gap: 100px;
   grid-row-gap: 10px;
-  align-content: space-between; }
+  align-content: flex-end; }
 
 footer div:nth-child(1) {
   text-align: left; }
@@ -8442,8 +8442,7 @@ footer div:nth-child(2) {
 footer div:nth-child(3) {
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-style: italic; }
+  justify-content: center; }
 
 footer ul li {
   display: inline-block; }
@@ -8453,22 +8452,27 @@ footer ul li a svg {
 
 footer div:nth-child(3) {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  justify-content: space-between; }
 
 /*Estilos principales CSS*/
 .navbar .collapse {
-  justify-content: center;
-  align-content: space-between;
   background-color: #192a54eb;
-  font-style: color white;
   font-size: large;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding: 25px 25px 25px 15px; }
+  padding: 25px 25px 25px 25px;
+  border-radius: 10px; }
+  .navbar .collapse .nav-item:hover {
+    transform: scale(1.03); }
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-around; }
 
 @media screen and (min-width: 768px) {
   .navbar .collapse {
-    justify-content: flex-end; } }
+    justify-content: flex-start; } }
 
 .nav-logo {
-  weight: 90px;
-  height: 90px; }
+  weight: 120px;
+  height: 120px; }
