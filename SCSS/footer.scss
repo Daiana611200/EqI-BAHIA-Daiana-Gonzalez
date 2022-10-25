@@ -1,3 +1,5 @@
+@import "variables";
+
 /*Estilo footer*/
 footer {
     background-color: #192a54eb;
@@ -10,33 +12,31 @@ footer {
     grid-row-gap: 10px; 
     
     align-content:flex-end;
-    }
 
-footer div:nth-child(1) {
-    text-align:left;
-    }
-
-footer div:nth-child(2) {
-    text-align: center;
-    }
+    div:nth-child(1) {
+        text-align:left;
+        }
     
-footer div:nth-child(3) {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    div:nth-child(2) {
+        text-align: center;
+        }
+        
+    div:nth-child(3) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: small;
+        }
+    
+    ul li {
+        display:inline-block;
+        }
+    
+    ul li a svg {
+        margin: 100 5px;
+        }
     }
 
-footer ul li {
-    display:inline-block;
-    }
 
-footer ul li a svg {
-    margin: 100 5px;
-    }
 
-footer div:nth-child(3) {
-    display: flex;
-    align-items: center;    
-    justify-content: space-between;
-    }
 
