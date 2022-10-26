@@ -8387,7 +8387,7 @@ textarea.form-control-lg {
     display: none !important; } }
 
 header {
-  background-color: #a2bfec;
+  background-color: hwb(215 73% 1%);
   border-radius: 10px;
   text-align: center;
   justify-content: center; }
@@ -8395,13 +8395,19 @@ header {
     padding: 20px 20px 20px 20px;
     font-size: larger; }
 
-.contenedor {
+.contenedor, .item-01, .item-02, .item-03, .item-04 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  height: 200px;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  color: black; }
+
+.item-03 {
+  text-decoration: none; }
+
+.item-04 {
+  text-decoration: none; }
 
 .item-01:hover {
   transform: scale(1.2); }
@@ -8412,8 +8418,8 @@ header {
 .item-03:hover {
   transform: scale(1.2); }
 
-.corousel {
-  justify-content: center; }
+.item-04:hover {
+  transform: scale(1.2); }
 
 /*Estilo main*/
 main {
@@ -8456,12 +8462,22 @@ footer {
     color: white; }
   footer ul li {
     display: inline-block;
-    justify-content: right; }
+    justify-content: right;
+    align-content: space-between; }
     footer ul li a svg {
       margin: 100 5px;
       color: white; }
       footer ul li a svg:hover {
         transform: scale(2.03); }
+
+.flex-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center; }
+
+h1, .h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold; }
 
 /*Estilos principales CSS*/
 .navbar .collapse {
@@ -8470,6 +8486,8 @@ footer {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 25px 25px 25px 25px;
   border-radius: 10px; }
+  .navbar .collapse .nav-link {
+    color: white; }
   .navbar .collapse .nav-item:hover {
     transform: scale(1.03);
     cursor: pointer; }
@@ -8483,5 +8501,9 @@ footer {
     justify-content: flex-start; } }
 
 .nav-logo {
-  weight: 120px;
-  height: 120px; }
+  width: 270px;
+  height: 100px;
+  border-radius: 10px; }
+
+.carousel-inner img {
+  margin: auto; }

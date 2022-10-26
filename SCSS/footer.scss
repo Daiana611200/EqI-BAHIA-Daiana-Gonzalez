@@ -1,5 +1,3 @@
-@import "variables";
-
 /*Estilo footer*/
 footer {
     background-color: #192a54eb;
@@ -37,6 +35,7 @@ footer {
     ul li {
         display:inline-block;
         justify-content:right;
+        align-content: space-between;
             a svg {
                     margin: 100 5px;
                     color: white;

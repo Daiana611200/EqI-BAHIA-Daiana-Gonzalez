@@ -1,5 +1,5 @@
 header {
-    background-color: #a2bfec;
+    background-color: hwb(215 73% 1%);
     border-radius: 10px;
     text-align: center;
     justify-content: center;
@@ -11,13 +11,27 @@ header {
 
 .contenedor{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    height: 200px;
     text-align: center;
 
     display: flex;
     flex-direction:column;
     justify-content: center;  
-    
+    color: black;
+    }
+
+    .item-01 {
+        @extend.contenedor;
+    }
+    .item-02 {
+        @extend.contenedor;
+    }
+    .item-03 {
+        @extend.contenedor;
+        text-decoration: none;
+    }
+    .item-04 {
+        @extend.contenedor;
+        text-decoration: none;
     }
 
 .item-01:hover{
@@ -32,6 +46,6 @@ header {
     transform: scale(1.2);
 }
 
-.corousel {
-    justify-content: center;
+.item-04:hover{
+    transform: scale(1.2);
 }
