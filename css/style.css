@@ -8473,7 +8473,12 @@ footer {
 .flex-container {
   display: grid;
   grid-template-columns: auto auto;
-  align-items: center; }
+  align-items: center;
+  justify-content: space-around; }
+
+.iframe {
+  border-color: black;
+  border-radius: 10px; }
 
 h1, .h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -8507,3 +8512,6 @@ h1, .h1 {
 
 .carousel-inner img {
   margin: auto; }
+
+.card-img-top {
+  clip-path: circle(40%); }

@@ -2,6 +2,10 @@
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
-  
+    justify-content: space-around;
 }
 
+.iframe {
+    border-color: black;
+    border-radius: 10px;   
+   }
