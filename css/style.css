@@ -8437,9 +8437,7 @@ main {
   margin-top: 5px;
   margin-right: 20px;
   margin-bottom: 20px;
-  margin-left: 20px;
-  display: flex;
-  flex-direction: column; }
+  margin-left: 20px; }
   main p {
     font-size: large; }
   main ul {
@@ -8506,8 +8504,7 @@ h1, .h1 {
   padding: 25px 25px 25px 25px;
   border-radius: 10px; }
   .navbar .collapse .nav-link {
-    color: white;
-    scale: black; }
+    color: white; }
     .navbar .collapse .nav-link:active {
       color: black; }
   .navbar .collapse .nav-item:hover {

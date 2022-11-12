@@ -8,9 +8,6 @@ main {
     margin-bottom: 20px;
     margin-left: 20px;
 
-    display: flex;
-    flex-direction: column;
-    
     p {
       font-size: large;
     }
@@ -19,7 +16,7 @@ main {
       text-align:justify;
       margin-left: 300px;
     }
-}
+  }
 
     @media screen and (max-width: 992px) {
         .section .galeria {
