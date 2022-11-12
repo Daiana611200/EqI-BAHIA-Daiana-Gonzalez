@@ -1,6 +1,6 @@
 /*Estilo main*/
 main {
-    text-align: center;
+    text-align:center;
     padding: 25px 25px 25px 15px;
      
     margin-top: 5px;
@@ -8,8 +8,16 @@ main {
     margin-bottom: 20px;
     margin-left: 20px;
 
+    display: flex;
+    flex-direction: column;
+    
     p {
       font-size: large;
+    }
+
+    ul {
+      text-align:justify;
+      margin-left: 300px;
     }
 }
 

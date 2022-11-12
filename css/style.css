@@ -8403,12 +8403,6 @@ header {
   justify-content: center;
   color: black; }
 
-.item-03 {
-  text-decoration: none; }
-
-.item-04 {
-  text-decoration: none; }
-
 .item-01:hover {
   transform: scale(1.2); }
 
@@ -8421,6 +8415,21 @@ header {
 .item-04:hover {
   transform: scale(1.2); }
 
+.item-05:hover {
+  transform: scale(1.2); }
+
+.item-06:hover {
+  transform: scale(1.2); }
+
+.item-07:hover {
+  transform: scale(1.2); }
+
+.item-08:hover {
+  transform: scale(1.2); }
+
+.item-09:hover {
+  transform: scale(1.2); }
+
 /*Estilo main*/
 main {
   text-align: center;
@@ -8428,9 +8437,14 @@ main {
   margin-top: 5px;
   margin-right: 20px;
   margin-bottom: 20px;
-  margin-left: 20px; }
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column; }
   main p {
     font-size: large; }
+  main ul {
+    text-align: justify;
+    margin-left: 300px; }
 
 @media screen and (max-width: 992px) {
   .section .galeria {
@@ -8492,7 +8506,10 @@ h1, .h1 {
   padding: 25px 25px 25px 25px;
   border-radius: 10px; }
   .navbar .collapse .nav-link {
-    color: white; }
+    color: white;
+    scale: black; }
+    .navbar .collapse .nav-link:active {
+      color: black; }
   .navbar .collapse .nav-item:hover {
     transform: scale(1.03);
     cursor: pointer; }

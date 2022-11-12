@@ -27,25 +27,35 @@ header {
     }
     .item-03 {
         @extend.contenedor;
-        text-decoration: none;
     }
     .item-04 {
         @extend.contenedor;
-        text-decoration: none;
     }
 
 .item-01:hover{
     transform: scale(1.2);
 }
-
 .item-02:hover{
     transform: scale(1.2);
 }
-
 .item-03:hover{
     transform: scale(1.2);
 }
-
 .item-04:hover{
+    transform: scale(1.2);
+}
+.item-05:hover{
+    transform: scale(1.2);
+}
+.item-06:hover{
+    transform: scale(1.2);
+}
+.item-07:hover{
+    transform: scale(1.2);
+}
+.item-08:hover{
+    transform: scale(1.2);
+}
+.item-09:hover{
     transform: scale(1.2);
 }
