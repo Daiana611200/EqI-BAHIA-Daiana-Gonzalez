@@ -4,16 +4,30 @@
 @import "header";
 @import "main";
 @import "footer";
+@import "galeria";
 @import "contacto";
 
 //Variables
 $tipografia-general: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 $color-primario: #a2bfec;
 $padding-1: 16px 24px;
+$margin-l: 20px;
 
 h1 {
     font-family: $tipografia-general;
     font-weight: bold;
+}
+
+h4 {
+    margin-left: $margin-l;
+}
+
+p {
+    margin-left: $margin-l;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*Estilos principales CSS*/
@@ -55,6 +69,8 @@ h1 {
 
 .carousel-inner img {
     margin: auto;
+    border: solid 2px; 
+    border-color: white;
 }
 
 .card-img-top {

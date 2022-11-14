@@ -1,0 +1,41 @@
+.instalaciones {
+    display: flex;
+    background-color: hwb(215 73% 1%);
+}
+
+.actividades {
+    display: flex;
+    background-color: white;
+}
+
+.talleres {
+   @extend .instalaciones;
+}
+
+.columna1 {
+    text-align: justify;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 20px 50px 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.columna2 {
+   @extend.columna1;
+}
+
+@media screen and (max-width: 768px) {
+    .instalaciones {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .actividades {
+        display: flex;
+        flex-direction: column;
+    }
+}

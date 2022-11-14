@@ -1,11 +1,30 @@
 .flex-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-    justify-content: space-around;
+    display: flex;
 }
 
-.iframe {
-    border-color: black;
-    border-radius: 10px;   
-   }
+.consulta {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: space-around;
+      
+        .formulario {
+            background-color:hwb(215 73% 1%);
+            border-radius: 20px;
+            padding: 30px 30px 30px 30px;
+            line-height: 1.6;
+     
+            margin-top: 5px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+         }
+}
+
+@media screen and (max-width: 768px) {
+    .consulta {
+        display: flex;
+        flex-direction: column;
+    }
+}
+

@@ -12,11 +12,11 @@ header {
 .contenedor{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-
+    color: black;
+    
     display: flex;
     flex-direction:column;
     justify-content: center;  
-    color: black;
     }
 
     .item-01 {
@@ -33,29 +33,29 @@ header {
     }
 
 .item-01:hover{
-    transform: scale(1.2);
+    transform: scale(1.08);
 }
 .item-02:hover{
-    transform: scale(1.2);
+    transform: scale(1.08);
 }
 .item-03:hover{
-    transform: scale(1.2);
+    transform: scale(1.08);
 }
 .item-04:hover{
-    transform: scale(1.2);
+    transform: scale(1.08);
 }
 .item-05:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 .item-06:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 .item-07:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 .item-08:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 .item-09:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
